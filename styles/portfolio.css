@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*shared stle*/
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.logo{
+    font-size: 45px;
+}
+.orange{
+    color:#FD6E0A;
+    font-weight: 900px;
+
+}
+
+.butt{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 50px;
+    border-radius: 5px;
+    font-size:20px;
+    font-weight:bold;
+    color: #FFF8F3;
+    display: inline-block;
+}
+/*main style*/
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+nav{
+   width:71% ;
+   max-width: 1140px; 
+   /*border: 1px solid red;*/
+   margin:0px auto;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap:51px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+    text-align: center;
+
+}
